@@ -89,13 +89,49 @@ footer.page-footer {
 .label-icon{
 font-size: 50px;
 }
-.bg-image {
+
+
+.bg-image-restaurant {
   /* The image used */
-  background-image: url("restourant_hall.jpg");
+  background-image: url("restaurant_hall.jpg");
 
   /* Add the blur effect */
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-pizza {
+  /* The image used */
+  background-image: url("pizza.jpg");
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-dostavka {
+  /* The image used */
+  background-image: url("dostavka.jpg");
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 
   /* Full height */
   height: 100fr;
