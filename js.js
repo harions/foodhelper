@@ -1,4 +1,5 @@
 $(document).ready(function(){
     $('.slider').slider();
   });
-  $('.slider').slider({height: 1000});
+$('.slider').slider({height: 1000});
+
