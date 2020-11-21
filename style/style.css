@@ -130,11 +130,11 @@ font-size: 50px;
   background-image: url("dostavka.jpg");
 
   /* Add the blur effect */
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 
   /* Full height */
-  height: 100fr;
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -145,7 +145,7 @@ font-size: 50px;
 /* Position text in the middle of the page/image */
 .bg-text {
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #5c6bc0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -154,4 +154,5 @@ font-size: 50px;
   width: 80%;
   padding: 20px;
   text-align: center;
+  background: rgba(63,81,181, 0.5);
 }
