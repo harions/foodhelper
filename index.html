@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="style/style.css">
   <title>Parallax Template - Materialize</title>
 
   <!-- CSS  -->
@@ -11,10 +12,50 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-    <header class="header">
-  </header>
-  <br><br>
+<header class="header">
+  <nav>
+    <div class="nav-wrapper red darken-4">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="Reservation.html">Зарезервувати столик</a></li>
+        <li><a href="Dostavka.html">Замовити додому</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
+<div class="card-panel">
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/restaurant_hall.jpg" class="bg-image-restaurant"> 
+        <div class="bg-text">
+          <h3 class="grey-text text-lighten-5">Загруженність та резервація</h3>
+          <h5 class="col s12 light grey-text text-lighten-4">Дізнайтеся у якому закладі більше вільних столиків.</h5>
+          <h5 class="col s12 light grey-text text-lighten-4">Знайдіть найкращий заклад для проведення часу.</h5>
+          <a class="waves-effect waves-light btn pink darken-4" href="Reservation.html">Вибрати</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/pizza.jpg" class="bg-image-pizza"> 
+        <div class="bg-text">
+          <h3 class="grey-text text-lighten-5">Попереднє замовлення</h3>
+          <h5 class="col s12 light grey-text text-lighten-4">Забудьте про черги і очікування, ваше замовлення буде чекати вас ще до вашого прибуття!</h5>
+          <a class="waves-effect waves-light btn pink darken-4" href="Reservation.html">Замовити</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/dostavka.jpg" class="bg-image-dostavka"> 
+        <div class="bg-text">
+          <h3 class="grey-text text-lighten-5">Доставка</h3>
+          <h5 class="col s12 light grey-text text-lighten-4">Замовляйте свої улюбленні страви з улюблениих закладів!</h5>
+          <h5 class="col s12 light grey-text text-lighten-4">Все на одному сайті</h5>
+          <a class="waves-effect waves-light btn pink darken-4" href="Dostavka.html">Замовити</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
 
   <footer class="page-footer teal">
     <div class="container">
@@ -55,8 +96,8 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
 
   </body>
 </html>
