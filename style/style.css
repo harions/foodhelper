@@ -56,46 +56,102 @@ footer.page-footer {
   margin: 0;
 }
 .btn-large{
-  width:170px;
+  width:200px;
   border-radius: 50px;
   font-size: 13px;
+  height: 63px;
+  top: 13px;
+  padding-top:1% ;
+}
+
+.header{
   height: 50px;
-  border: 1px solid black;
 }
 
 .search{ 
-  left: 250px;
-  top: 7px;
+  top: 13px;
+  left: 160px;
   position:relative;
-  width: 500px;
-  height: 50px;
+  width: 700px;
+  height: 60px;
   box-shadow: none;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
+ 
+}
+.sear{
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 18px;
 }
 
 .label-icon{
 font-size: 50px;
-margin-top:-10px;
 }
 
-.parallax-container{
-  height: 500px;
-  top: -43px;
-}
-.navbar_btnn{
-  margin-left:499px;
-  margin-top: -155px;
-  height: 50px;
-  border: 1px solid black;
-  box-shadow: none;
+.bg-image-restaurant {
+  /* The image used */
+  background-image: url("restaurant_hall.jpg");
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.navbar{
-  box-shadow: black;
+.bg-image-pizza {
+  /* The image used */
+  background-image: url("pizza.jpg");
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.logoimg{
-  width: 140px;
-  margin-top: -2px;
-  margin-left: 30px;
+.bg-image-dostavka {
+  /* The image used */
+  background-image: url("dostavka.jpg");
+
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  font-weight: bold;
+  border: 3px solid #5c6bc0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  background: rgba(63,81,181, 0.5);
+} 
