@@ -4,4 +4,3 @@ $(document).ready(function(){
     interval: 4500
   });
 });
-
