@@ -1,4 +1,4 @@
-var things = ["Львів", "Київ", "Харків", "Тернопіль"];
+var city = ["Львів", "Київ", "Харків", "Тернопіль"];
 
 
 function autocomplete(inp, arr) {
