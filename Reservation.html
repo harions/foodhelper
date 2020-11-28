@@ -42,11 +42,17 @@
           </nav>
       </nav>
       </div>
+      <form autocomplete="off" action="/action_page.php">
+           <input id="myInput" type="text" name="city" placeholder="Місто">             
+        </form>
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="scripts/reservation-scripts.js"></script>
     <script src="js/materialize.js"></script>
+    <script>
+      autocomplete(document.getElementById("myInput"), city);
+  </script>
 
   </body>
 </html>
