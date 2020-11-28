@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-var things = ["Львів", "Київ", "Харків", "Тернопіль"];
-=======
 var city = ["Львів", "Київ", "Харків", "Тернопіль"];
->>>>>>> parent of 06d42ec... Adnriy changes on main page
 
 
 function autocomplete(inp, arr) {
