@@ -32,6 +32,7 @@ body, html {
 /*Img Form*/
 .form-img{
     background-image: url(../img/card-hall.jpg);
+<<<<<<< HEAD
     height: 100%;
     margin-bottom: 0;
     background-position: center;
@@ -46,4 +47,22 @@ body, html {
 }
 .forma{
     width: 100px;
+=======
+    filter: blur(1.5px) brightness(80%);
+    height: 89.7%;
+    min-width: 25px;
+    margin-bottom: 0;
+}
+.cont{
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    margin: 20px;
+    max-width: 350px;
+    padding: 16px;
+    border-radius: 20px;
+    border: black;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: white;
+>>>>>>> parent of 06d42ec... Adnriy changes on main page
 }
