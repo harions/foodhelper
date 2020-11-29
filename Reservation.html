@@ -11,6 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="style/navbar_style.css">
   <link rel="stylesheet" href="style/autocomplete.css">
+  <link rel="stylesheet" href="style/reservation.css">
 </head>
 <body>
   <header class="header">
@@ -43,10 +44,16 @@
           </nav>
       </nav>
       </div>
-      <form autocomplete="off" action="/action_page.php">
-           <input id="myInput" type="text" name="city" placeholder="Місто">             
-        </form>
 
+ <div class="sidenav">
+     <div class="korobka">
+        <div class="autocomp">
+            <form autocomplete="off" action="/action_page.php">
+                <input id="myInput" type="text" name="city" placeholder="Місто">    
+             </form>
+         </div>
+     </div>
+</div>
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="scripts/reservation-scripts.js"></script>

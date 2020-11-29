@@ -1,5 +1,6 @@
 /*Autocomplete*/
 .autocomp{
+    padding: 5px;
     position: relative;
     display: inline-block;
   }

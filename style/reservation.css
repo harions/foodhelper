@@ -1,0 +1,24 @@
+.sidenav {
+    height: 100%;
+    width: 180px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgba(245, 90, 0, 0.932);
+    overflow-x: hidden;
+    padding-top: 180px;
+}
+.sidenav form {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+.korobka{
+    border: black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 3px;
+}
