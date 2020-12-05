@@ -1,8 +1,10 @@
 /*Autocomplete*/
 .autocomp{
-    padding: 5px;
+    padding: 3px;
     position: relative;
-    display: inline-block;
+    left: 30px;
+    top: -7px;
+    width: 200px;
   }
   .autocomp-items {
     position: absolute;
