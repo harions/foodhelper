@@ -101,7 +101,6 @@ function autocomplete(inp, arr) {
 
   
   
-
   $('#btn').click(function(){
     let a= $("#myInput").val();
     $(".text").append(a);
