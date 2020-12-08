@@ -97,11 +97,5 @@ function autocomplete(inp, arr) {
       closeAllLists(e.target);
   });
   }
-
-
   
   
-  $('#btn').click(function(){
-    let a= $("#myInput").val();
-    $(".text").append(a);
-  });

@@ -1,23 +1,23 @@
 .korobka{
     position: absolute;
-    top: 280px;
-    left: 37%;
-    width: 300px;
-    height: 200px;
-    border: black;
+    left: 300px;
+    top: 70px;
+    width: 600px;
+    height: 150px;
+    border: 2px outset red;
     border-radius: 15px;
-    background-color: grey;
-    margin: 3px;
+    background-color: rgba(243, 219, 0, 0.89);
 }
 .knopka{
     color: red;
     position: absolute;
     top: 15px;
-    left: 220px;
+    right: -70px;
 }
 .fotka{
     width: 100%;
     background-image: url(../img/restaurant_hall.jpg);
-    filter: blur(2px);
-    filter: brightness(80%);  
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    filter: brightness(50%);  
 }

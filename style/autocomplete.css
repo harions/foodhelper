@@ -1,15 +1,19 @@
 /*Autocomplete*/
+*{
+  box-sizing: border-box;
+}
 .autocomp{
     padding: 6px;
-    position: relative;
-    left: 30px;
-    top: 50px;
-    width: 200px;
+    margin: 3px;
+    position: absolute; 
+    top: 40px;
+    right: 100px;
+    width: 450px;
     background-color: white;
     border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(107, 0, 0);
   }
   .autocomp-items {
-    position: absolute;
     border: 1px solid #d4d4d4;
     border-bottom: none;
     border-top: none;
@@ -28,6 +32,13 @@
     background-color: #e9e9e9;
   }
   .autocomp-active {
+    cursor: pointer;
     background-color: red !important;
     color: #ffffff;
+  }
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
   }
