@@ -14,13 +14,13 @@
     top: 15px;
     right: -60px;
 }
-.fotka{
-    width: 100%;
-    background-image: url(../img/restaurant_hall.jpg);
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    filter: brightness(50%);  
-}
 .txt{
     font-family: cursive;
+}
+.photo{
+    max-width: 405px;
+}
+.iconka{
+    margin: 6px;
+    max-width: 60px;
 }
