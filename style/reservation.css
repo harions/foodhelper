@@ -1,8 +1,8 @@
 .korobka{
     position: absolute;
-    left: 300px;
+    left: 150px;
     top: 70px;
-    width: 600px;
+    width: 400px;
     height: 150px;
     border: 2px outset red;
     border-radius: 15px;
@@ -12,7 +12,7 @@
     color: red;
     position: absolute;
     top: 15px;
-    right: -70px;
+    right: -60px;
 }
 .fotka{
     width: 100%;
@@ -20,4 +20,7 @@
     filter: blur(4px);
     -webkit-filter: blur(4px);
     filter: brightness(50%);  
+}
+.txt{
+    font-family: cursive;
 }
