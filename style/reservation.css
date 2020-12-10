@@ -24,3 +24,32 @@
     margin: 6px;
     max-width: 60px;
 }
+.tab-mine input[type="radio"]{
+    display: none;
+}
+#opis, #reservacia, #menu{
+    display: none;
+    width: 45%;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+#tab-button-1:checked~#opis,
+#tab-button-2:checked~#reservacia,
+#tab-button-3:checked~#menu {
+  display: block;
+}
+.tab-mine label{
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.tab-mine input[type="radio"]:checked+label {
+    background-color: #bdbdbd;
+}
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.5);
+}
