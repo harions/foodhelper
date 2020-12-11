@@ -4,9 +4,9 @@
     top: 70px;
     width: 400px;
     height: 150px;
-    border: 2px outset red;
     border-radius: 15px;
-    background-color: rgba(243, 219, 0, 0.89);
+    box-shadow: 0.7px solid #ff3d00;
+    background-color: #8bc34a;
 }
 .knopka{
     color: red;
@@ -15,7 +15,7 @@
     right: -60px;
 }
 .txt{
-    font-family: cursive;
+    font-family: serif;
 }
 .photo{
     max-width: 405px;
@@ -24,15 +24,17 @@
     margin: 6px;
     max-width: 60px;
 }
+
 .tab-mine input[type="radio"]{
     display: none;
 }
 #opis, #reservacia, #menu{
     display: none;
-    width: 45%;
-    border: 1px solid #eee;
-    padding: 10px 15px;
+    background-color:#ffab91;
+    box-shadow: 1px 3px 15px black;
+    padding: 15px 25px;
     border-radius: 4px;
+    margin: 20px;
 }
 #tab-button-1:checked~#opis,
 #tab-button-2:checked~#reservacia,
@@ -42,14 +44,24 @@
 .tab-mine label{
     display: inline-block;
     padding: 10px 5px;
+    width: 120px;
+    height: 30px;
     margin: 5px;
     border: 1px solid black;
     font-size: 20px;
     cursor: pointer;
+    transition: border 1s, background-color 3s, ;
+}
+.tab-mine label:hover{
+    border: none;
+    background-color: rgba(255, 217, 0, 0.4);
 }
 .tab-mine input[type="radio"]:checked+label {
-    background-color: #bdbdbd;
+    background-color: brown;
 }
 .bg-color{
     background-color: rgba(0, 0, 0, 0.5);
+}
+.tab-mine li{
+    padding: 7px 3px;
 }
