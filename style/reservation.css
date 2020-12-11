@@ -1,12 +1,11 @@
 .korobka{
     position: absolute;
-    left: 150px;
-    top: 70px;
+    left: 50px;
+    top: 120px;
     width: 400px;
     height: 150px;
     border-radius: 15px;
     box-shadow: 0.7px solid #ff3d00;
-    background-color: #8bc34a;
 }
 .knopka{
     color: red;
@@ -30,9 +29,9 @@
 }
 #opis, #reservacia, #menu{
     display: none;
-    background-color:#ffab91;
-    box-shadow: 1px 3px 15px black;
-    padding: 15px 25px;
+    font-size: 18px;
+    box-shadow: 1px 2px 6px black;
+    padding: 15px 25px 15px 25px;
     border-radius: 4px;
     margin: 20px;
 }
@@ -64,4 +63,13 @@
 }
 .tab-mine li{
     padding: 7px 3px;
+}
+.tab-mine blockquote{
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #8bc34a;
+}
+.tab-mine .txt{
+    margin-top: 35px;
+    background-color: #ffcc80;
 }
