@@ -82,7 +82,7 @@ blockquote{
 .stats{
     position: relative;
     left: 0;
-    height: 20px;
+    height: 25px;
     width: 400px;
     border-radius: 10px;
     background-color: #c5e1a5;  
@@ -91,7 +91,7 @@ blockquote{
 }
 .stata{
     background-color: #ffa726;
-    height: 100%;
+    height: 25px;
     width: 250px;
     border-radius: 10px;
     box-shadow: 2px 0 4px black;
@@ -104,7 +104,6 @@ blockquote{
     padding: 15px 4px;
 }
 .stat-content{
-    padding: 0 0 0 1px;
     font-family: serif;
 }
 .card-image img{
