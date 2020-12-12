@@ -107,3 +107,6 @@ blockquote{
     padding: 0 0 0 1px;
     font-family: serif;
 }
+.card-image img{
+    max-height: 180px;
+}
