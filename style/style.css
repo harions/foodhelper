@@ -1,3 +1,10 @@
+@media only screen and (max-width: 320px){
+  .lef{
+    width: 200;
+    height: 290;
+  }
+}
+
 .bg-image-restaurant {
   /* Add the blur effect */
   filter: blur(4px);

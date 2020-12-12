@@ -1,3 +1,11 @@
+@media (min-width: 320px){
+  .logoimg{
+    margin-right: 270px;
+    height: 58px;
+  }
+  
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
