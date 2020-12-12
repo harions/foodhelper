@@ -109,3 +109,6 @@ blockquote{
 .card-image img{
     max-height: 180px;
 }
+.card-panel img{
+    max-height: 400px;
+}
