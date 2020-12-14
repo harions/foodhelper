@@ -106,6 +106,9 @@ blockquote{
 .stat-content{
     font-family: serif;
 }
+.card{
+    max-height: 400px;
+}
 .card-image img{
     max-height: 180px;
 }
