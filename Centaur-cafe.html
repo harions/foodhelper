@@ -52,7 +52,6 @@
                 <div class="col s6">
                     <ul>
                         <li><h2 class="flow-text">Ресторан Centaur (Кентавр)</h2></li>
-                        <br>
                         <li><blockquote><p class="flow-text">пл. Ринок, 34, Львів 79008 Україна</p>
                             <div class="row">
                                 <a href="https://www.tripadvisor.ru/Restaurant_Review-g295377-d2660092-Reviews-Cafe_Centaur-Lviv_Lviv_Oblast.html" target="_blank"><img src="img/tripadvisor.png" class="iconka"></a>
@@ -69,11 +68,11 @@
                 <div class="center">
                   <div class="container">
                     <input class="reset-this button-position" type="radio" name="tab-button" id="menu-button">
-                    <label class="reset-this button-position" for="menu-button">Меню</label>
-                    <input class="reset-this" type="radio" name="tab-button" id="opis-button" value="" checked>
-                    <label class="reset-this button-position" for="opis-button">Описання</label>
-                    <input class="reset-this" type="radio" name="tab-button" id="reservation-button" value="">
-                    <label class="reset-this button-position" for="reservation-button">Резервація</label>
+                    <label class="reset-this button-position labels" for="menu-button">Меню</label>
+                    <input class="reset-this" type="radio" name="tab-button" id="opis-button" value="">
+                    <label class="reset-this button-position labels" for="opis-button">Описання</label>
+                    <input class="reset-this" type="radio" name="tab-button" id="reservation-button" value="" checked>
+                    <label class="reset-this button-position labels" for="reservation-button">Резервація</label>
 
                     <div id="opis">
                       <div class="row">
@@ -92,27 +91,48 @@
                       </div>
                     </div>
                     
-                    <div id="reservacia">       
-                        <div class="stats">  
-                          <p class="txt">Зайнято 43/80</p>
-                          <div class="stata">
-                            <div class="stat-shkala">
+                    <div id="reservacia">
+                      <div class="row">     
+                        <div class="col s12">
+                          <div class="stats col s5">  
+                            <h5 class="txt">Зайнято 43/80</h5>
+                            <div class="stata">
+                              <div class="stat-shkala">
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <h3 class="txt">Здійсніть резервацію</h3>
-                        <div class="col s8 m6 l6 offset-s6 offset-m6 offset-l6">
-                          <select class="browser-default">
-                            <option value="" disabled selected>Виберіть кількість осіб</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="10">Більше</option>
-                          </select>
-                        </div>
+                          <div class="col s1"></div>
+                          <div class="col s6">
+                            <h4 class="txt">Здійсніть Резервацію</h4>   
+                            <b class="col s1 offset-s3">1.</b>
+                            <div class="col s8">
+                              <select class="browser-default">
+                                <option value="" disabled selected>Виберіть кількість осіб</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="10">Більше</option>
+                              </select>
+                            </div> 
+                            </div>
+                          </div>
+                      
+                      <div class="col s6 offset-s6">
+                        <div class="col s3"></div>
+                        <b class="col s1">2.</b>
+                        <div class="input-field col s6">
+                          <form action="" method="GET">
+                            <input type="text" name="phone_number" placeholder="+380 XXX XXX XXX" class="validate col s10">
+                            <div class="col s1">
+                              <a href="Reservation-agree.html" class="btn-floating btn-small waves-effect waves-light green"><i class="material-icons">check</i></a>
+                            </div>
+                          </div>
+                          </form>
+                          </div>
+                    </div>
                     </div>    
                     <div id="menu">
                       MENuuuu
@@ -124,7 +144,6 @@
                
           </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    
   <script>
     var el = document.querySelector('.tabs');
     var instance = M.Tabs.init(el, {});
