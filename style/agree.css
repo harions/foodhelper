@@ -32,14 +32,6 @@
     display: inline-block;
     cursor:pointer;
   }
-  #zatemnenie.hide {
-    -webkit-animation-name: bounceOutLeft;
-    -webkit-animation-duration: 1s;
-    visibility: hidden;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    
-}
 /*
 -webkit-animation-name: bounceOutLeft;
     -webkit-animation-duration: 1s;
