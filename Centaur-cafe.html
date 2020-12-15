@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -11,6 +14,8 @@
     <link rel="stylesheet" href="style/autocomplete.css">
     <link rel="stylesheet" href="style/reservation.css">
     <script src="js/materialize.js"></script>
+    <link rel="stylesheet" href="style/agree.css">
+    <link rel="stylesheet" href="style/animate.min.css">
 </head>
 <body>
   <header class="header">
@@ -127,7 +132,8 @@
                           <form action="" method="GET">
                             <input type="text" name="phone_number" placeholder="+380 XXX XXX XXX" class="validate col s10">
                             <div class="col s1">
-                              <a href="Reservation-agree.html" class="btn-floating btn-small waves-effect waves-light green"><i class="material-icons">check</i></a>
+                              <a href="#zatemnenie" class="btn-floating btn-small waves-effect waves-light green"><i class="material-icons">check</i></a>
+                            </div>
                             </div>
                           </div>
                           </form>
@@ -143,10 +149,17 @@
             </div>
                
           </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script>
-    var el = document.querySelector('.tabs');
-    var instance = M.Tabs.init(el, {});
+          <div id="zatemnenie">
+            <div id="okno" class="animate__animated animate__faster animate__bounceInRight">
+              <h3 class="center-align txt">
+                Резервація виконана
+              </h3>
+              <br>
+              <a href="javascript://" onclick="$('#zatemnenie').addClass('hide');" class="close">Закрыть окно</a>
+            </div>
+ <script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
   </script>
 </body>
 </html>
