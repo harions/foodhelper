@@ -146,7 +146,14 @@
                           </div>
                     </div>  
                     <div id="menu">
-                      <img src="img/celentano-menu.jpg">
+                      <div class="row">
+                        <a href="#fotka"><img src="img/celentano-menu.jpg" style="max-width: 350px;" class="col s6 offset-s3"></a>
+                        <div id="fotka" onclick="document.location.href = '#'">
+                          <div>
+                            <img class="foto" id="sama-fotka" src="img/celentano-menu.jpg">
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   </div>            
@@ -173,14 +180,12 @@
     function clickMe() {
   document.querySelector("#zatemnenie").classList.toggle("animacia");
 }
-
     function goToPage()
 {
 	var url = document.getElementById('#page-close');
 	document.location.href = "index.html";
 }
-
-    
+   
   </script>
 
 </body>

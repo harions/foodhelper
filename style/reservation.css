@@ -176,15 +176,51 @@ blockquote{
     transform: scale(1.15) translateX(25px);
     box-shadow: 3px 3px 10px;
 }
-/* Other */
 .celentano-opis-photo {
     max-width: 350px;
 }
-.bg-color{
-    background-color: rgba(0, 0, 0, 0.5);
-}
 .celentano-cafe #opis .txt{
     margin-top: 50px;
+}
+.celentano-cafe #menu #fotka{
+    backdrop-filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;    
+}
+.celentano-cafe #menu #sama-fotka{
+    max-width: 88%;
+    max-height: 88%;
+    border: 3px solid #f44336;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+.celentano-cafe #menu #fotka:target{
+    display: block;
+}
+/*.celentano-cafe #menu .foto{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    max-height: 100%;
+    max-width: 100%;
+}*/
+.celentano-cafe #menu .foto-off{
+    height: 100%;
+    width: 100%;
+}
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .card-image img{
     max-height: 180px;
