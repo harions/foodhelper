@@ -8,7 +8,6 @@
     display: none;
     position: fixed;
   }
- 
   #okno {
     width: 500px;
     height: 250px;
@@ -29,10 +28,13 @@
     overflow: hidden;
 }
   .close {
-    display: inline-block;
-    cursor:pointer;
+    border: none;
+    color: green;
+    font-family: serif;
+    font-size: 23px;
+    cursor: pointer;
   }
-/*
--webkit-animation-name: bounceOutLeft;
-    -webkit-animation-duration: 1s;
-*/
+  .animacia{
+    -webkit-animation-name: bounceOutLeft;
+    -webkit-animation-duration: 2s;
+  }

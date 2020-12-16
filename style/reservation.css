@@ -2,7 +2,6 @@
     position: absolute;
     left: 50px;
     top: 120px;
-    width: 400px;
     height: 150px;
     border-radius: 15px;
     box-shadow: 0.7px solid #ff3d00;
@@ -92,7 +91,7 @@ blockquote{
     transition: all 0.6s;
 }
 .centaur-cafe .stat-shkala{
-    width: 34.4%;
+    width: 53.75%;
     background-color: #ffa726;
 }
 .centaur-cafe .stata:hover{
@@ -104,7 +103,40 @@ blockquote{
 }
 .centaur-cafe .stat-content{
     font-family: serif;
-}ы
+}
+.centaur-cafe #menu #fotka{
+    backdrop-filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;    
+}
+.centaur-cafe #menu #sama-fotka{
+    max-width: 88%;
+    max-height: 88%;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+.centaur-cafe #menu #fotka:target{
+    display: block;
+}
+.centaur-cafe #menu .foto-off{
+    height: 100%;
+    width: 100%;
+}
+.centaur-cafe #menu img:hover{
+    border: 1px solid black;
+}
 /* Celentano styles */
 .celentano-cafe .tab-mine label{
     display: inline-block;
@@ -153,14 +185,71 @@ blockquote{
     border: 1px solid black;
     background-color: rgba(255, 217, 0, 0.671);
 }
+.celentano-cafe  .stats{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.celentano-cafe  .stata{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    height: 23px;
+    transition: all 0.6s;
+}
+.celentano-cafe .stat-shkala{
+    width: 57%;
+    background-color: #ffa726;
+}
+.celentano-cafe  .stata:hover{
+    transform: scale(1.15) translateX(25px);
+    box-shadow: 3px 3px 10px;
+}
 .celentano-opis-photo {
     max-width: 350px;
 }
-.bg-color{
-    background-color: rgba(0, 0, 0, 0.5);
-}
 .celentano-cafe #opis .txt{
     margin-top: 50px;
+}
+.celentano-cafe #menu img:hover{
+    border: 1px solid black;
+}
+.celentano-cafe #menu #fotka{
+    backdrop-filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;    
+}
+.celentano-cafe #menu #sama-fotka{
+    max-width: 88%;
+    max-height: 88%;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+.celentano-cafe #menu #fotka:target{
+    display: block;
+}
+.celentano-cafe #menu .foto-off{
+    height: 100%;
+    width: 100%;
+}
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .card-image img{
     max-height: 180px;

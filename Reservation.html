@@ -26,21 +26,23 @@
       <nav class="white" role="navigation">
           <nav> 
             <div class="nav-wrapper orange darken-1">
-              <a href="index.html" class="brand-logo" id="logo-height"><img class="logoimg" src="img/Best-Logo.png" alt=""></a>
+              <a id="logo-container" href="index.html" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
               <ul class="right hide-on-med-and-down">
-  
-                <li><a href="Dostavka.html" class="waves-effect white black-text btn-large"><b>Замовити додому</b></a></li>
-                <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+                <li><a href="Reservation.html" class="waves-effect white black-text btn-large" style="text-decoration: underline;"><b>Зарезервувати</b></a></li>
+                <li><a class="waves-effect waves-light white-text icon-shopping"><i class="material-icons right">shopping_cart</i>Корзина</a></li>
               </ul>
     
     
-              <ul id="nav-mobile" class="side-nav">
-                <div class="nav-wrapper orange darken-1">
-                  <ul class="nav-it"></ul>
-                    <li><a class=" white-text nav-icon"><i class="material-icons right">cloud</i>Корзина</a></li>
-                    <li><a href="Dostavka.html" class="waves-effect white black-text btn-large"><b>Замовити додому</b></a></li>
-                    <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
-                  </ul>
+              <ul id="nav-mobile" class="side-nav orange">
+                <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
+                <hr color="white">
+                <li ><a class="waves-effect waves-light white  btn-large icon-shopping"><i class="material-icons right black-text">shopping_cart</i>Корзина</a></li>
+                <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+               <div class="text-mobile">
+                <p class="center first">Щодня з 10:00 до 21:00</p>
+                <p class="center other">+38 (067) 63 71 444</p>
+                <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
+               </div>
               </ul>
               <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>
             </div>
@@ -52,12 +54,16 @@
       </div>
   
   </header>
+  
 
 
 <br>
 <br>
 <div class="container row">
-  <div class="korobka col s6 m6 l2">
+  <h1 class="red-text txt col s0 m8 offset-m5">Ресторани для вас</h1>
+</div>
+<div class="row">
+  <div class="korobka col s6 m2 l2 offset-m1 offset-l1">
     <div class="container">
       <h5 class="center-align red-text txt">Пошук по місту</h5>
     </div>
@@ -70,15 +76,14 @@
       </form>
     </div>
   </div>
+  
   </div>
   <br>
-    <h1 class="center-align red-text col s6 txt">Ресторани для вас</h1>
+   
     <div class="container cartochki animate__animated animate__fast animate__fadeInUp">
       <div class="row">
         <div class="col s12">
-          <div class="col s0 m1">
-          </div>
-          <div class="col s6 m4 l3">
+          <div class="col s12 m4 l3 offset-l1">
             <div class="card">
               <div class="card-image">
                 <img src="img/centaur.jpg" height="222px" >
@@ -94,7 +99,7 @@
               </div>
             </div>
           </div>
-          <div class="col s6 m4 l3">
+          <div class="col s12 m4 l3">
             <div class="card">
               <div class="card-image">
                 <img src="img/celentano.jpg" height="222px">
@@ -110,7 +115,7 @@
               </div>
             </div>
           </div>  
-          <div class="col s6 m4 l3">
+          <div class="col s12 m4 l3">
             <div class="card">
               <div class="card-image">
                 <img src="img/rec3_3.jpg" height="222px">
@@ -124,19 +129,17 @@
               <div class="card-action">
                 <a href=""><b>Зарезервувати</b></a>
               </div>
-          <div class="col s0 m1">
+          <div class="col s0 m0 l1">
           </div>
         </div>
     </div>
     </div>
     </div>
     </div>
-    <div class="container cartochki wow animate__fadeInUp" data-wow-duration="0.5s" data-wow-offset="-75">
+    <div class="container cartochki wow animate__fadeInUp" data-wow-duration="0.5s">
       <div class="row">
         <div class="col s12">
-          <div class="col s0 m1">
-          </div>
-          <div class="col s6 m3 l3">
+          <div class="col s12 m4 l3 offset-l1">
             <div class="card">
               <div class="card-image">
                 <img src="img/gold-rose.jpg" height="222px" >
@@ -152,7 +155,7 @@
               </div>
             </div>
           </div>
-          <div class="col s6 m3 l3">
+          <div class="col s12 m4 l3">
             <div class="card">
               <div class="card-image">
                 <img src="img/stumari.jpg" height="222px">
@@ -168,14 +171,14 @@
               </div>
             </div>
           </div>  
-          <div class="col s6 m3 l3">
+          <div class="col s12 m4 l3">
             <div class="card">
               <div class="card-image">
                 <img src="img/mozart-restaurant.jpg" height="222px">
               </div>
               <div class="card-content">
                 <div class="row">
-                  <h6 class="col s12">Ресторан "Софи кафе"</h6>
+                  <h6 class="col s12">Ресторан "Моцарт"</h6>
                 </div>
                 <div class="row">
                   <p class="col s12">Вул. Ланжероновська, 13, Одесса</p>
@@ -184,7 +187,7 @@
               <div class="card-action">
                 <a href=""><b>Зарезервувати</b></a>
               </div>
-          <div class="col s0 m1">
+          <div class="col s0 m0 l1">
           </div>
         </div>
     </div>
