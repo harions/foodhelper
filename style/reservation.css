@@ -117,7 +117,7 @@ blockquote{
 .centaur-cafe #menu #sama-fotka{
     max-width: 88%;
     max-height: 88%;
-    border: 3px solid #a4ff67;
+    border: 3px solid darkblue;
     border-radius: 10px;
     position: absolute;
     top: 60px;
@@ -133,6 +133,9 @@ blockquote{
 .centaur-cafe #menu .foto-off{
     height: 100%;
     width: 100%;
+}
+.centaur-cafe #menu img:hover{
+    border: 1px solid black;
 }
 /* Celentano styles */
 .celentano-cafe .tab-mine label{
@@ -212,6 +215,9 @@ blockquote{
 .celentano-cafe #opis .txt{
     margin-top: 50px;
 }
+.celentano-cafe #menu img:hover{
+    border: 1px solid black;
+}
 .celentano-cafe #menu #fotka{
     backdrop-filter: brightness(75%);
     width: 100%;
@@ -225,7 +231,7 @@ blockquote{
 .celentano-cafe #menu #sama-fotka{
     max-width: 88%;
     max-height: 88%;
-    border: 3px solid #a4ff67;
+    border: 3px solid darkblue;
     border-radius: 10px;
     position: absolute;
     top: 60px;
