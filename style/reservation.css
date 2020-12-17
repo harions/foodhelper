@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .korobka{
     position: absolute;
     left: 50px;
@@ -134,7 +137,8 @@ blockquote{
     height: 100%;
     width: 100%;
 }
-.centaur-cafe #menu img:hover{
+.centaur-cafe #menu #foto-small:hover{
+    cursor: zoom-in;
     border: 1px solid black;
 }
 /* Celentano styles */
@@ -215,7 +219,8 @@ blockquote{
 .celentano-cafe #opis .txt{
     margin-top: 50px;
 }
-.celentano-cafe #menu img:hover{
+.celentano-cafe #menu #foto-small:hover{
+    cursor: zoom-in;
     border: 1px solid black;
 }
 .celentano-cafe #menu #fotka{
