@@ -102,4 +102,11 @@ margin-top:-10px;
 .nav-icon{
   font-size: 18px;
 }
-
+.navbar{
+  position: relative;
+  height: 56px;
+  z-index: 998;
+}
+.navbar nav{
+  position: fixed;
+}
