@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .korobka{
     position: absolute;
     left: 50px;
@@ -115,8 +118,8 @@ blockquote{
     position: fixed;    
 }
 .centaur-cafe #menu #sama-fotka{
-    max-width: 88%;
-    max-height: 88%;
+    max-width: 100%;
+    max-height: 100%;
     border: 3px solid darkblue;
     border-radius: 10px;
     position: absolute;
@@ -134,7 +137,8 @@ blockquote{
     height: 100%;
     width: 100%;
 }
-.centaur-cafe #menu img:hover{
+.centaur-cafe #menu #foto-small:hover{
+    cursor: zoom-in;
     border: 1px solid black;
 }
 /* Celentano styles */
@@ -215,7 +219,8 @@ blockquote{
 .celentano-cafe #opis .txt{
     margin-top: 50px;
 }
-.celentano-cafe #menu img:hover{
+.celentano-cafe #menu #foto-small:hover{
+    cursor: zoom-in;
     border: 1px solid black;
 }
 .celentano-cafe #menu #fotka{

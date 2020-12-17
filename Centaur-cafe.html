@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Foodhelper - Кафе "Кентавр"</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     
     <!-- CSS -->
@@ -78,7 +78,7 @@
                     <input class="reset-this" type="radio" name="tab-button" id="menu-button">
                     <label class="reset-this button-position labels" for="menu-button">Меню</label>
                     <input class="reset-this" type="radio" name="tab-button" id="opis-button" value="" checked>
-                    <label class="reset-this button-position labels" for="opis-button">Описання</label>
+                    <label class="reset-this button-position labels" for="opis-button">Опис</label>
                     <input class="reset-this" type="radio" name="tab-button" id="reservation-button" value="">
                     <label class="reset-this button-position labels" for="reservation-button">Резервація</label>
 
@@ -144,7 +144,7 @@
                     </div>
                     <div id="menu">
                       <div class="row">
-                        <a href="#fotka"><img src="img/menu.jpg" class="col s6 offset-s3"></a>
+                        <a href="#fotka"><img src="img/menu.jpg" id="foto-small" class="col s6 offset-s3"></a>
                         <div id="fotka" onclick="document.location.href = '#'">
                           <div>
                             <img class="foto" id="sama-fotka" src="img/menu.jpg">
@@ -158,7 +158,7 @@
                   </div>            
               </div> 
             </div>
-               
+          </div>
           </div>
           <div id="zatemnenie">
             <div id="okno" class="animate__animated animate__fast animate__bounceInRight">
@@ -170,6 +170,38 @@
               <br>
               <button onclick="clickMe(); setTimeout(goToPage, 1000)" id="page-close" class="close">Перейти на головну сторінку</button>
             </div>
+            </div>
+            <footer class="page-footer teal orange darken-1">
+              <div class="container">
+                <div class="row">
+                  <div class="col l3 s12">
+                    <h5><b class="white-text ">НАШІ ДАННІ</b></h5>
+                    <li><a class="black-text" >ГАРЯЧА ЛІНІЯ</a></li>
+                    <li><a class="black-text">+380980887885</a></li>
+                    <li><a class="black-text">+380666935686</a></li>
+                  </div>
+                  <div class="col l3 s12">
+                    <h5><b class="white-text ">МИ В YouTube</b></h5>
+                    <ul>
+                      <li><a class="black-text" href="https://www.youtube.com/">YouTube</a></li>
+                    </ul>
+                  </div>
+                  <div class="col l3 s12">
+                    <h5><b class="white-text ">МИ В FACEBOOK</b></h5>                                                                                                                                                                                                                                                                                                                                                                                                                      </h5>
+                    <ul>
+                      <li><a class="black-text" href="https://uk-ua.facebook.com/">FACEBOOK</a></li>
+                      
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                Made by <a class="black-text " href="">HARIONS GROUP</a>
+                </div>
+              </div>
+            </footer>
  <script src="js/wow.min.js"></script>
 <script>
     new WOW().init();
