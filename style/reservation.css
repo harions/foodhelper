@@ -2,10 +2,6 @@ body{
     overflow-x: hidden;
 }
 .korobka{
-    position: absolute;
-    left: 50px;
-    top: 120px;
-    height: 150px;
     border-radius: 15px;
     box-shadow: 0.7px solid #ff3d00;
 }
@@ -16,9 +12,7 @@ blockquote{
 }
 .knopka{
     color: red;
-    position: absolute;
-    top: 15px;
-    right: -60px;
+    z-index: 9999;
 }
 .txt{
     font-family: serif;

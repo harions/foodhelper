@@ -21,69 +21,92 @@
     <link rel="stylesheet" href="style/reservation.css">
 </head>
 <body>
-  <header class="header">
-    <div class="navbar-fixed ">
-      <nav class="white" role="navigation">
-          <nav> 
-            <div class="nav-wrapper orange darken-1">
-              <a id="logo-container" href="index.html" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="Reservation.html" class="waves-effect white black-text btn-large"><b>Зарезервувати</b></a></li>
-                <li><a class="waves-effect waves-light white-text icon-shopping"><i class="material-icons right">shopping_cart</i>Корзина</a></li>
-              </ul>
-    
-    
-              <ul id="nav-mobile" class="side-nav orange">
-                <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
-                <hr color="white">
-                <li ><a class="waves-effect waves-light white  btn-large icon-shopping"><i class="material-icons right black-text">shopping_cart</i>Корзина</a></li>
-                <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
-               <div class="text-mobile">
-                <p class="center first">Щодня з 10:00 до 21:00</p>
-                <p class="center other">+38 (067) 63 71 444</p>
-                <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
-               </div>
-              </ul>
-              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>
-            </div>
-    
-    
-            </div>
+    <header class="header">
+        <div class="navbar-fixed ">
+          <nav class="white" role="navigation">
+              <nav> 
+                <div class="nav-wrapper orange darken-1">
+                  <a id="logo-container" href="index.html" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+                    <li><a class="waves-effect waves-light white-text icon-shopping"><i class="material-icons right">shopping_cart</i>Корзина</a></li>
+                  </ul>
+        
+        
+                  <ul id="nav-mobile" class="side-nav orange">
+                    <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
+                    <hr color="white">
+                    <li ><a class="waves-effect waves-light white  btn-large icon-shopping"><i class="material-icons right black-text">shopping_cart</i>Корзина</a></li>
+                    <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+                   <div class="text-mobile">
+                    <p class="center first">Щодня з 10:00 до 21:00</p>
+                    <p class="center other">+38 (067) 63 71 444</p>
+                    <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
+                   </div>
+                  </ul>
+                  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>
+                </div>
+        
+        
+                </div>
+              </nav>
           </nav>
-      </nav>
+          </div>
+      
+      </header>
+  
+
+
+<br>
+<br>
+<div class="hide-on-small-only">
+  <div class="container row">
+    <h2 class="red-text txt col s0 m6 l6 push-m6 push-l6">Ресторани для вас</h2>
+    <div class="korobka col s0 m6 l6 pull-m6 pull-l6">
+      <div class="container">
+        <h5 class="red-text txt col s0 m6 l6 offset-m1 offset-l1">Пошук по місту</h5>
       </div>
-  
-  </header>
-  
-
-
-<br>
-<br>
-<div class="container row">
-  <h1 class="red-text txt col s0 m8 offset-m5">Ресторани для вас</h1>
+      
+      <div class="autocomp col s0 m8 l8">
+        <div class="col s0 m1 l1 push-m9 push-l9">
+            <button type="submit" class="btn-floating btn-small waves-effect waves-light red" id="btn"><i class="material-icons">search</i></button>
+          </div>
+        <form class="col s0 m8 l8" autocomplete="off">
+          <input id="myInput" type="text" name="city" placeholder="Місто">
+        </form>
+      </div>
+    </div>
+      
+    </div>      
 </div>
-<div class="row">
-  <div class="korobka col s6 m2 l2 offset-m1 offset-l1">
-    <div class="container">
-      <h5 class="center-align red-text txt">Пошук по місту</h5>
+
+<div class="hide-on-med-and-up">
+    <div class="container row">
+        <h3 class="col s12 center-align red-text txt">Ресторани для вас</h3>
     </div>
-    <div class="autocomp">
-      <form autocomplete="off">
-        <input id="myInput" type="text" name="city" placeholder="Місто">
-        <div class="knopka">
-          <button type="submit" class="btn-floating btn-small waves-effect waves-light red" id="btn"><i class="material-icons">search</i></button>
+    <div class="korobka row">
+        <div class="col s8 offset-s2">
+            <div class="container">
+                <h5 class="center-align red-text txt">Пошук по місту</h5>
+              </div>
+              <div class="col s1 push-s10">
+                <button type="submit" class="btn-floating btn-small waves-effect waves-light red" id="btn"><i class="material-icons">search</i></button>
+              </div>
+              <div class="autocomp col s10">
+                <form autocomplete="off">
+                  <input id="myInput" type="text" name="city" placeholder="Місто">
+                </form>    
+              </div>
         </div>
-      </form>
-    </div>
-  </div>
-  
-  </div>
+      </div>
+</div>
+
   <br>
    
-    <div class="container cartochki animate__animated animate__fast animate__fadeInUp">
+    <div class="container cartochki">
       <div class="row">
         <div class="col s12">
-          <div class="col s12 m4 l3 offset-l1">
+          <div class="col s12 m4 l3 offset-l1 wow animate__fadeInUp" data-wow-duration="0.3s">
             <div class="card">
               <div class="card-image">
                 <img src="img/centaur.jpg" height="222px" >
@@ -99,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m4 l3">
+          <div class="col s12 m4 l3 wow animate__fadeInUp" data-wow-duration="0.3s">
             <div class="card">
               <div class="card-image">
                 <img src="img/celentano.jpg" height="222px">
@@ -115,7 +138,7 @@
               </div>
             </div>
           </div>  
-          <div class="col s12 m4 l3">
+          <div class="col s12 m4 l3 wow animate__fadeInUp" data-wow-duration="0.3s">
             <div class="card">
               <div class="card-image">
                 <img src="img/rec3_3.jpg" height="222px">
@@ -136,10 +159,10 @@
     </div>
     </div>
     </div>
-    <div class="container cartochki wow animate__fadeInUp" data-wow-duration="0.3s">
+    <div class="container cartochki">
       <div class="row">
         <div class="col s12">
-          <div class="col s12 m4 l3 offset-l1">
+          <div class="col s12 m4 l3 offset-l1 wow animate__fadeInUp" data-wow-duration="0.3s">
             <div class="card">
               <div class="card-image">
                 <img src="img/gold-rose.jpg" height="222px" >
@@ -155,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m4 l3">
+          <div class="col s12 m4 l3 wow animate__fadeInUp" data-wow-duration="0.3s">
             <div class="card">
               <div class="card-image">
                 <img src="img/stumari.jpg" height="222px">
@@ -171,7 +194,7 @@
               </div>
             </div>
           </div>  
-          <div class="col s12 m4 l3">
+          <div class="col s12 m4 l3 wow animate__fadeInUp" data-wow-duration="0.3s">
             <div class="card">
               <div class="card-image">
                 <img src="img/mozart-restaurant.jpg" height="222px">
@@ -199,9 +222,11 @@
         <div class="row">
           <div class="col l3 s12">
             <h5><b class="white-text ">НАШІ ДАННІ</b></h5>
+            <ul>
             <li><a class="black-text" >ГАРЯЧА ЛІНІЯ</a></li>
             <li><a class="black-text">+380980887885</a></li>
             <li><a class="black-text">+380666935686</a></li>
+            </ul>
           </div>
           <div class="col l3 s12">
             <h5><b class="white-text ">МИ В YouTube</b></h5>
@@ -233,5 +258,6 @@
     <script>
       autocomplete(document.getElementById("myInput"), city);
   </script>
+  <script src="js/init.js"></script>
   </body>
 </html>
