@@ -29,48 +29,137 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="style/navbar_style.css">
+  <link rel="stylesheet" href="style/navbar-style.css">
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="style/help.css">
 </head>
 <body>
-  <header class="header">
-    <div class="navbar-fixed ">
-      <nav class="white" role="navigation">
-          <nav> 
-            <div class="nav-wrapper orange darken-1">
-              <a id="logo-container" href="#" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="support.html" class="waves-effect waves-light white-text icon-shopping" ><i class="material-icons right ">build</i><b>Тех. підтримка</b></a></li>
-                <li><a class="waves-effect waves-light white-text icon-shopping"><i class="material-icons right ">shopping_cart</i><b>Корзина</b></a></li>
-                <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
-              </ul>
-    
-    
-              <ul id="nav-mobile" class="side-nav orange">
-                <li><a id="logo-container" href="#" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
-                <hr color="white">
-                <li ><a class="waves-effect waves-light white  btn-large icon-shopping black-text"><span><i class="material-icons right black-text ic-mob2">home</i><b class="text-mob2"> Головна</b></span></a></li>
-                <li ><a class="waves-effect waves-light white  btn-large icon-shopping black-text"><span><i class="material-icons right black-text ic-mob2">build</i><b class="text-mob2"> Підтримка</b></span></a></li>
-                <li ><a class="waves-effect waves-light white  btn-large icon-shopping black-text"><span class="mob"><i class="material-icons right black-text ic-mob ">shopping_cart</i><b class="text-mob">Корзина</b></span></a></li>
-                <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
-               <div class="text-mobile">
-                <p class="center first">Щодня з 10:00 до 21:00</p>
-                <p class="center other">+38 (067) 63 71 444</p>
-                <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
-               </div>
-              </ul>
-              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>
+<header class="header">
+  <div class="navbar">
+    <nav class="white" role="navigation">
+          <div class="nav-wrapper orange darken-1">
+            <a id="logo-container" href="index.html" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="support.html" class="waves-effect waves-light white-text icon-shopping" ><i class="material-icons right ">build</i><b>Тех. підтримка</b></a></li>
+              <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav orange">
+
+              <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
+              <hr color="white">
+              <li ><a class="waves-effect waves-light white  btn-large icon-shopping black-text"><span><i class="material-icons right black-text ic-mob2">home</i><b class="text-mob2"> Головна</b></span></a></li>
+              <li ><a class="waves-effect waves-light white  btn-large icon-shopping black-text"><span><i class="material-icons right black-text ic-mob2">build</i><b class="text-mob2"> Підтримка</b></span></a></li>
+              <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+             <div class="text-mobile">
+              <p class="center first">Щодня з 10:00 до 21:00</p>
+              <p class="center other">+38 (067) 63 71 444</p>
+              <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
+             </div>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>
+          </div>
+  
+  
+          </div>
             </div>
-    
-    
-            </div>
-          </nav>
-      </nav>
+          </div>          
+
+        </nav>
+    </div>
+
+</header>
+<br>
+<br>
+  
+<div class="container">
+  <div class="card-panel">
+    <div class="row">
+      <h2 class="col s12 center-align">Введіть ваші данні</h2>
+    </div>
+  <div class="row">
+    <form class="col s6 offset-s3">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Ваше ім'я</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">contact_mail</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Ваша електронна пошта</label>
+        </div>
       </div>
-  
-  </header>
-  
+    </form>
+    <a onclick="document.location.replace('support.html#blur');"><button class="btn waves-effect waves-light green col s5 m4 l3 offset-s4 offset-m4 offset-l6" type="submit" name="action">Підтвердити
+    <i class="material-icons right">contacts</i>
+  </button></a>
+  </div>
+</div>
+</div>
+<div id="blur">
+    <div id="okno" class="lime"> 
+        <h4 class="center-align">Ви залишили заяву на зворотній зв'язок</h4>
+        <br> 
+        <br>
+        <h5 class="center-align">Вона буде розглянута протягом однієї години</h5>
+        <br> 
+        <br>
+        <br>
+        <a href="index.html" class="btn-floating btn-large waves-effect waves-light green accent-3
+"><i class="material-icons">check</i></a>
+    </div>
+</div>
+<footer class="page-footer teal orange darken-1">
+  <div class="container">
+    <div class="row">
+      <div class="col l3 s12">
+        <h5><b class="white-text ">НАШІ ДАННІ</b></h5>
+        <ul>
+        <li><a class="black-text" >ГАРЯЧА ЛІНІЯ</a></li>
+        <li><a class="black-text">+380980887885</a></li>
+        <li><a class="black-text">+380666935686</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5><b class="white-text ">МИ В YouTube</b></h5>
+        <ul>
+          <li><a class="black-text" href="https://www.youtube.com/">YouTube</a></li>
+        </ul>
+
+      </div>
+      <div class="col l3 s12">
+        <h5><b class="white-text ">МИ В FACEBOOK</b></h5>                                                                                                                                                                                                                                                                                                                                                                                                                      </h5>
+        <ul>
+          <li><a class="black-text" href="https://uk-ua.facebook.com/">FACEBOOK</a></li>
+          
+          </div>
+        </ul>
+
+      </div>
+      <div class="col l3 s12">
+        <h5><b class="white-text ">МИ В FACEBOOK</b></h5>                                                                                                                                                                                                                                                                                                                                                                                                                      </h5>
+        <ul>
+          <li><a class="black-text" href="https://uk-ua.facebook.com/">FACEBOOK</a></li>
+          
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    Made by <a class="black-text " href="">HARIONS GROUP</a>
+    </div>
+  </div>
 
 
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/js.js"></script>
+  <script src="js/init.js"></script>  
 </body>
 </html>
