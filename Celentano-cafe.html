@@ -53,20 +53,16 @@
       </div>
   
   </header>
-  
+  <div class="hide-on-med-and-down">
       <div class="container">
         <div class="card-panel">
             <div class="row">
               <div class="container">
-                <img class="col s6" src="img/pizza-1.jpeg">  
+                <img class="col s6 celentano-pizza" src="img/pizza-1.jpeg">  
                 <div class="col s6">
                     <ul>
                         <li><h2 class="flow-text">Ресторан Celentano (Челентано)</h2></li>
                         <li><blockquote><p class="flow-text">вул. Галицька, 1, площа Ринок, 21, Львів, Львівська область, 79000</p>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
                             <div class="row">
                                 <a href="https://www.tripadvisor.ru/LocationPhotoDirectLink-g295377-d4186998-i273673993-Celentano_Ristorante-Lviv_Lviv_Oblast.html" target="_blank"><img src="img/tripadvisor.png" class="iconka"></a>
                                 <a href="https://www.google.com/maps/place/Pizza+Celentano+Ristorante_Rynok/@49.8410105,24.031225,15z/data=!4m5!3m4!1s0x0:0x6374237e4d983f78!8m2!3d49.8410105!4d24.031225" target="_blank"><img src="img/google_icon.png" class="iconka"></a>
@@ -174,7 +170,252 @@
             </div>
             </div>
           </div>
-          <footer class="page-footer teal orange darken-1">
+  </div> 
+
+  <div class="hide-on-small-only hide-on-large-only">
+    <div class="container">
+      <div class="card-panel">
+        <div class="container">
+          <div class="row">
+              <img class="col s12" src="img/pizza-1.jpeg"> 
+            </div>
+            <div class="row"> 
+              <div class="col s12">
+                  <ul>
+                      <li><h2 class="flow-text">Ресторан Celentano (Челентано)</h2></li>
+                      <li><blockquote><p class="flow-text">вул. Галицька, 1, площа Ринок, 21, Львів, Львівська область, 79000</p>
+
+                          <div class="row">
+                              <a href="https://www.tripadvisor.ru/LocationPhotoDirectLink-g295377-d4186998-i273673993-Celentano_Ristorante-Lviv_Lviv_Oblast.html" target="_blank"><img src="img/tripadvisor.png" class="iconka"></a>
+                              <a href="https://www.google.com/maps/place/Pizza+Celentano+Ristorante_Rynok/@49.8410105,24.031225,15z/data=!4m5!3m4!1s0x0:0x6374237e4d983f78!8m2!3d49.8410105!4d24.031225" target="_blank"><img src="img/google_icon.png" class="iconka"></a>
+                          </div>
+                      </blockquote></li>
+                  </ul>
+                </div>
+                </div>
+              </div>  
+          
+        <div class="row">
+          <div class="celentano-cafe-tablet">
+            <div class="tab-mine-tablet">
+              <div class="center">
+                <div class="container">
+                  <input class="reset-this button-position" type="radio" name="tab-button" id="menu-button-tablet">
+                  <label class="reset-this button-position" for="menu-button-tablet">Меню</label>
+                  <input class="reset-this" type="radio" name="tab-button" id="opis-button-tablet" value="">
+                  <label class="reset-this button-position" for="opis-button-tablet">Опис</label>
+                  <input class="reset-this" type="radio" name="tab-button" id="reservation-button-tablet" value="">
+                  <label class="reset-this button-position" for="reservation-button-tablet">Резервація</label>
+
+                  <div id="opis-tablet">
+                      <div class="row">
+                        <img class="col s12 push-s1 celentano-opis-photo" src="img/hall-celentano.png">
+                      </div>
+                    <div class="row">
+                      <ul class="col s12 txt">
+                        <li>Піцерія «Челентано» належить до мережі ресторанів швидкого обслуговування, розташованих по всьому Львову. В інтер'єрі закладу яскраві насичені відтінки прапора Італії, цегляне мурування стін, лаконічне меблювання. Меню містить популярні страви італійської кулінарії, приготовані зі свіжих натуральних продуктів. Головною стравою вважається піца, яку випікають у спеціальній печі. Гостям пропонують піцу з начинками, яких налічується понад десяти варіантів.
+                        </li>
+                        <li>
+                          У розпорядженні гостей основний зал і літня тераса.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <div id="reservacia-tablet">
+                    <div class="row">     
+                      <div class="col s12">
+                        <div class="stats col s6">  
+                          <h5 class="txt">Зайнято 37/65</h5>
+                          <div class="stata">
+                            <div class="stat-shkala">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col s6">
+                          <h4 class="txt">Здійсніть Резервацію</h4>   
+                          <b class="col s1">1.</b>
+                          <div class="col s10">
+                            <select class="browser-default">
+                              <option value="" disabled selected>Виберіть кількість осіб</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="10">Більше</option>
+                            </select>
+                          </div> 
+                          </div>
+                        </div>
+                    
+                    <div class="col s6 offset-s6">
+                      <b class="col s1">2.</b>
+                      <div class="input-field col s10">
+                        <form action="" method="GET">
+                          <input type="text" name="phone_number" placeholder="+380 XXX XXX XXX" class="validate col s10">
+                          <div class="col s1">
+                            <a href="#zatemnenie" class="btn-floating btn-small waves-effect waves-light green"><i class="material-icons">check</i></a>
+                          </div>
+                          </div>
+                        </div>
+                        </form>
+                        </div>
+                  </div>  
+                  <div id="menu-tablet">
+                    <div class="row">
+                      <a href="#fotka-tablet"><img src="img/celentano-menu.jpg" id="foto-small-tablet" style="max-width: 350px;" class="col s6 offset-s3"></a>
+                      <div id="fotka-tablet" onclick="document.location.href = '#'">
+                        <div>
+                          <img class="foto-tablet" id="sama-fotka-tablet" src="img/celentano-menu.jpg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>            
+      </div>
+    </div>
+    </div>
+      </div>
+    <div id="zatemnenie">
+          <div id="okno" class="animate__animated animate__fast animate__bounceInRight">
+            <h3 class="center-align txt">
+              Резервація виконана
+            </h3>
+            <h6><b>Дякуємо що користуєтесь нами!</b></h6>
+            <h6><b>Вам зателефонують наші оператори для підвердження резервації</b></h6>
+            <br>
+            <button onclick="clickMe(); setTimeout(goToPage, 1000)" id="page-close" class="close reset-this">Перейти на головну сторінку</button>
+          </div>
+          </div>
+        </div>
+  </div>
+
+  <div class="hide-on-med-and-up">
+    <div class="container">
+    <div class="card-panel">
+        <div class="container">
+        <div class="row">
+            <img class="col s12" src="img/pizza-1.jpeg">  
+        </div>
+            <div class="col s6">
+                <ul>
+                    <li><h2 class="flow-text">Ресторан Celentano (Челентано)</h2></li>
+                    <li><blockquote><p class="flow-text">вул. Галицька, 1, площа Ринок, 21, Львів, Львівська область, 79000</p>
+                        <div class="row">
+                            <a href="https://www.tripadvisor.ru/LocationPhotoDirectLink-g295377-d4186998-i273673993-Celentano_Ristorante-Lviv_Lviv_Oblast.html" target="_blank"><img src="img/tripadvisor.png" class="iconka"></a>
+                            <a href="https://www.google.com/maps/place/Pizza+Celentano+Ristorante_Rynok/@49.8410105,24.031225,15z/data=!4m5!3m4!1s0x0:0x6374237e4d983f78!8m2!3d49.8410105!4d24.031225" target="_blank"><img src="img/google_icon.png" class="iconka"></a>
+                        </div>
+                    </blockquote></li>
+                </ul>
+              </div>
+            </div>  
+        </div>
+      <div class="row">
+        <div class="celentano-cafe-phone">
+          <div class="tab-mine-phone">
+            <div class="center">
+              <div class="container">
+                <input class="reset-this button-position" type="radio" name="tab-button" id="menu-button-phone">
+                <label class="reset-this button-position" for="menu-button-phone">Меню</label>
+                <input class="reset-this" type="radio" name="tab-button" id="opis-button-phone" value="">
+                <label class="reset-this button-position" for="opis-button-phone">Опис</label>
+                <input class="reset-this" type="radio" name="tab-button" id="reservation-button-phone" value="">
+                <label class="reset-this button-position" for="reservation-button-phone">Резервація</label>
+
+                <div id="opis-phone">
+                  <div class="row">
+                    <img class="celentano-opis-photo col s12" src="img/hall-celentano.png">
+                  </div>
+                  <div class="row">
+                    <ul class="col s12 txt">
+                      <li>Піцерія «Челентано» належить до мережі ресторанів швидкого обслуговування, розташованих по всьому Львову. В інтер'єрі закладу яскраві насичені відтінки прапора Італії, цегляне мурування стін, лаконічне меблювання. Меню містить популярні страви італійської кулінарії, приготовані зі свіжих натуральних продуктів. Головною стравою вважається піца, яку випікають у спеціальній печі. Гостям пропонують піцу з начинками, яких налічується понад десяти варіантів.
+                      </li>
+                      <li>
+                        У розпорядженні гостей основний зал і літня тераса.
+                      </li>
+                    </ul>
+                    <blockquote class="col s6 m6 l6">
+                      </blockquote>                       
+                  </div>
+                </div>
+                
+                <div id="reservacia-phone">
+                  <div class="row">     
+                    <div class="col s12">
+                      <div class="stats col s6">  
+                        <h5 class="txt">Зайнято 37/65</h5>
+                        <div class="stata">
+                          <div class="stat-shkala">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col s6">
+                        <h4 class="txt">Здійсніть Резервацію</h4>   
+                    </div>
+                </div>
+                <div class="row">
+                        <b class="col s1">1.</b>
+                        <div class="col s11">
+                          <select class="browser-default">
+                            <option value="" disabled selected>Виберіть кількість осіб</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="10">Більше</option>
+                          </select>
+                        </div> 
+                        
+                      </div>
+                  
+                    <b class="col s1">2.</b>
+                    <div class="input-field col s11">
+                      <form action="" method="GET">
+                        <input type="text" name="phone_number" placeholder="+380 XXX XXX XXX" class="validate col s10">
+                        <div class="col s1">
+                          <a href="#zatemnenie" class="btn-floating btn-small waves-effect waves-light green"><i class="material-icons">check</i></a>
+                        </div>
+                        </div>
+
+                      </form>
+                  </div>
+                </div>  
+                <div id="menu-phone">
+                  <div class="row">
+                    <a href="#fotka-phone"><img src="img/celentano-menu.jpg" id="foto-small-phone" style="max-width: 350px;" class="col s6 offset-s3"></a>
+                    <div id="fotka-phone" onclick="document.location.href = '#'">
+                      <div>
+                        <img class="foto-phone" id="sama-fotka-phone" src="img/celentano-menu.jpg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>            
+    </div>
+  </div>
+  </div>
+    </div>
+  <div id="zatemnenie">
+        <div id="okno" class="animate__animated animate__fast animate__bounceInRight">
+          <h3 class="center-align txt">
+            Резервація виконана
+          </h3>
+          <h6><b>Дякуємо що користуєтесь нами!</b></h6>
+          <h6><b>Вам зателефонують наші оператори для підвердження резервації</b></h6>
+          <br>
+          <button onclick="clickMe(); setTimeout(goToPage, 1000)" id="page-close" class="close reset-this">Перейти на головну сторінку</button>
+        </div>
+        </div>
+      </div>
+  </div>
+          
+  <footer class="page-footer teal orange darken-1">
             <div class="container">
               <div class="row">
                 <div class="col l3 s12">
