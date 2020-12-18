@@ -179,6 +179,20 @@ blockquote{
     justify-content: center;
     padding: 10px;
 }
+.centaur-cafe-tablet .stats{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.centaur-cafe-phone .stats{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
 .centaur-cafe .stata{
     width: 100%;
     display: flex;
