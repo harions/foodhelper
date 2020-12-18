@@ -159,7 +159,20 @@ blockquote{
     margin-top: 35px;
 }
 .centaur-cafe .stats{
-    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.centaur-cafe-tablet .stats{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.centaur-cafe-phone .stats{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -500,7 +513,6 @@ blockquote{
     padding: 10px;
 }
 .celentano-cafe-tablet  .stats{
-    width: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -508,7 +520,6 @@ blockquote{
     padding: 10px;
 }
 .celentano-cafe-phone  .stats{
-    width: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -560,7 +571,7 @@ blockquote{
     box-shadow: 3px 3px 10px;
 }
 .celentano-cafe-phone  .stata:hover{
-    transform: scale(1.15) translateX(25px);
+    transform: scale(1.15) translateX(10px);
     box-shadow: 3px 3px 10px;
 }
 .celentano-opis-photo {
