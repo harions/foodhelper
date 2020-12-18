@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-     <title>FoodHelper - сторінка резервації</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FoodHelper - сторінка резервації</title>
     <script src="js/materialize.js"></script>
     <link rel="stylesheet" href="style/animate.min.css"/>
     <script src="scripts/wow.min.js"></script>
@@ -15,45 +15,39 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="style/navbar_style.css">
+    <link rel="stylesheet" type="text/css" href="style/navbar-style.css">
     <link rel="stylesheet" type="text/css" href="style/autocomplete.css">
     <link rel="stylesheet" type="text/css" href="style/reservation.css">
 </head>
 <body>
-  <header class="header">
-    <div class="navbar">
-      <nav class="white" role="navigation">
-            <div class="nav-wrapper orange darken-1">
-              <a id="logo-container" href="index.html" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
-                <li><a class="waves-effect waves-light white-text icon-shopping"><i class="material-icons right">shopping_cart</i>Корзина</a></li>
-              </ul>
-              
-              <ul id="nav-mobile" class="side-nav orange">
-                  <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
-                  <hr color="white">
-                  <li ><a class="waves-effect waves-light white  btn-large icon-shopping"><i class="material-icons right black-text">shopping_cart</i>Корзина</a></li>
-                  <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
-                 <div class="text-mobile">
-                  <p class="center first">Щодня з 10:00 до 21:00</p>
-                  <p class="center other">+38 (067) 63 71 444</p>
-                  <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
-                 </div>
-                </ul>
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>            
-              </div>
-            </div>
-  
+<header class="header">
+  <div class="navbar">
+    <nav class="white" role="navigation">
           <div class="nav-wrapper orange darken-1">
-              
-              </div>
-            
-          </nav>
-          
-      </div>
-  
-  </header>
+            <a id="logo-container" href="index.html" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+              <li><a class="waves-effect waves-light white-text icon-shopping"><i class="material-icons right">shopping_cart</i>Корзина</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav orange">
+                <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
+                <hr color="white">
+                <li ><a class="waves-effect waves-light white  btn-large icon-shopping"><i class="material-icons right black-text">shopping_cart</i>Корзина</a></li>
+                <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+               <div class="text-mobile">
+                <p class="center first">Щодня з 10:00 до 21:00</p>
+                <p class="center other">+38 (067) 63 71 444</p>
+                <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
+               </div>
+              </ul>
+              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>            
+            </div>
+          </div>          
+        </nav>
+    </div>
+
+</header>
 
 
 <br>
@@ -250,13 +244,13 @@
       </div>
     </footer>    
     <!--  Scripts-->
+    <script src="js/init.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="scripts/reservation-scripts.js"></script>
+    <script src="js/js.js"></script>
     <script>
       new WOW().init();
-      </script>
-    <script src="scripts/reservation-scripts.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/js.js"></script>
+      </script> 
     <script>
       autocomplete(document.getElementById("myInput"), city);
   </script>

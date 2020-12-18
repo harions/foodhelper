@@ -28,6 +28,12 @@ blockquote{
 .centaur-cafe .tab-mine input[type="radio"]{
     display: none;
 }
+.centaur-cafe-tablet .tab-mine-tablet input[type="radio"]{
+    display: none;
+}
+.centaur-cafe-phone .tab-mine-phone input[type="radio"]{
+    display: none;
+}
 .centaur-cafe #opis, #reservacia, #menu{
     display: none;
     font-size: 18px;
@@ -36,12 +42,60 @@ blockquote{
     border-radius: 4px;
     margin: 20px;
 }
-.centaur-cafe #opis-button:checked~#opis,
-.centaur-cafe #reservation-button:checked~#reservacia,
-.centaur-cafe #menu-button:checked~#menu {
+.centaur-cafe-tablet #opis-tablet, #reservacia-tablet, #menu-tablet{
+    display: none;
+    font-size: 18px;
+    box-shadow: 1px 2px 6px black;
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    margin: 20px;
+}
+.centaur-cafe-phone #opis-phone, #reservacia-phone, #menu-phone{
+    display: none;
+    font-size: 18px;
+    box-shadow: 1px 2px 6px black;
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    margin: 20px;
+}
+.centaur-cafe .tab-mine #opis-button:checked~#opis,
+.centaur-cafe .tab-mine #reservation-button:checked~#reservacia,
+.centaur-cafe .tab-mine #menu-button:checked~#menu {
+  display: block;
+}
+.centaur-cafe-tablet .tab-mine-tablet #opis-button-tablet:checked~#opis-tablet,
+.centaur-cafe-tablet .tab-mine-tablet #reservation-button-tablet:checked~#reservacia-tablet,
+.centaur-cafe-tablet .tab-mine-tablet #menu-button-tablet:checked~#menu-tablet {
+  display: block;
+}
+.centaur-cafe-phone .tab-mine-phone #opis-button-phone:checked~#opis-phone,
+.centaur-cafe-phone .tab-mine-phone #reservation-button-phone:checked~#reservacia-phone,
+.centaur-cafe-phone .tab-mine-phone #menu-button-phone:checked~#menu-phone {
   display: block;
 }
 .centaur-cafe .tab-mine .labels{
+    display: inline-block;
+    padding: 10px 5px;
+    width: 120px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.centaur-cafe-tablet .tab-mine-tablet .labels{
+    display: inline-block;
+    padding: 10px 5px;
+    width: 120px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.centaur-cafe-phone .tab-mine-phone .labels{
     display: inline-block;
     padding: 10px 5px;
     width: 120px;
@@ -56,11 +110,33 @@ blockquote{
     border: none;
     background-color: rgba(255, 217, 0, 0.671);
 }
+.centaur-cafe-tablet .tab-mine-tablet .labels:hover{
+    border: none;
+    background-color: rgba(255, 217, 0, 0.671);
+}
+.centaur-cafe-phone .tab-mine-phone .labels:hover{
+    border: none;
+    background-color: rgba(255, 217, 0, 0.671);
+}
 .centaur-cafe .tab-mine input[type="radio"]:checked+label {
     background-color: rgba(255, 217, 0, 0.671);
     border: 1px solid black;
 }
+.centaur-cafe-tablet .tab-mine-tablet input[type="radio"]:checked+label {
+    background-color: rgba(255, 217, 0, 0.671);
+    border: 1px solid black;
+}
+.centaur-cafe-phone .tab-mine-phone input[type="radio"]:checked+label {
+    background-color: rgba(255, 217, 0, 0.671);
+    border: 1px solid black;
+}
 .centaur-cafe .tab-mine li{
+    padding: 7px 3px;
+}
+.centaur-cafe-tablet .tab-mine-tablet li{
+    padding: 7px 3px;
+}
+.centaur-cafe-phone .tab-mine-phone li{
     padding: 7px 3px;
 }
 .centaur-cafe .tab-mine blockquote{
@@ -68,11 +144,36 @@ blockquote{
     padding-left: 1.5rem;
     border-left: 5px solid #8bc34a;
 }
+.centaur-cafe-tablet .tab-mine-tablet blockquote{
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #8bc34a;
+}
+.centaur-cafe-phone .tab-mine-phone blockquote{
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #8bc34a;
+}
+
 .centaur-cafe #opis .txt{
     margin-top: 35px;
 }
 .centaur-cafe .stats{
     width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.centaur-cafe-tablet .stats{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.centaur-cafe-phone .stats{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -87,7 +188,31 @@ blockquote{
     height: 23px;
     transition: all 0.6s;
 }
+.centaur-cafe-tablet .stata{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    height: 23px;
+    transition: all 0.6s;
+}
+.centaur-cafe-phone .stata{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    height: 23px;
+    transition: all 0.6s;
+}
 .centaur-cafe .stat-shkala{
+    width: 53.75%;
+    background-color: #ffa726;
+}
+.centaur-cafe-tablet .stat-shkala{
+    width: 53.75%;
+    background-color: #ffa726;
+}
+.centaur-cafe-phone .stat-shkala{
     width: 53.75%;
     background-color: #ffa726;
 }
@@ -95,10 +220,30 @@ blockquote{
     transform: scale(1.15) translateX(25px);
     box-shadow: 3px 3px 10px;
 }
+.centaur-cafe-tablet .stata:hover{
+    transform: scale(1.15) translateX(25px);
+    box-shadow: 3px 3px 10px;
+}
+.centaur-cafe-phone .stata:hover{
+    transform: scale(1.08) translateX(10px);
+    box-shadow: 3px 3px 10px;
+}
 .centaur-cafe #reservacia .txt{
     padding: 15px 4px;
 }
+.centaur-cafe-tablet #reservacia .txt{
+    padding: 15px 4px;
+}
+.centaur-cafe-phone #reservacia-phone .txt{
+    padding: 15px 4px;
+}
 .centaur-cafe .stat-content{
+    font-family: serif;
+}
+.centaur-cafe-tablet .stat-content{
+    font-family: serif;
+}
+.centaur-cafe-phone .stat-content{
     font-family: serif;
 }
 .centaur-cafe #menu #fotka{
@@ -111,7 +256,53 @@ blockquote{
     display: none;
     position: fixed;    
 }
+.centaur-cafe-tablet #menu-tablet #fotka-tablet{
+    backdrop-filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;    
+}
+.centaur-cafe-phone #menu-phone #fotka-phone{
+    backdrop-filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;  
+}
 .centaur-cafe #menu #sama-fotka{
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+.centaur-cafe-tablet #menu-tablet #sama-fotka-tablet{
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+.centaur-cafe-phone #menu-phone #sama-fotka-phone{
     max-width: 100%;
     max-height: 100%;
     border: 3px solid darkblue;
@@ -127,11 +318,34 @@ blockquote{
 .centaur-cafe #menu #fotka:target{
     display: block;
 }
+.centaur-cafe-tablet #menu-tablet #fotka-tablet:target{
+    display: block;
+}
+.centaur-cafe-phone #menu-phone #fotka-phone:target{
+    display: block;
+}
+
 .centaur-cafe #menu .foto-off{
     height: 100%;
     width: 100%;
 }
+.centaur-cafe-tablet #menu-tablet .foto-off-tablet{
+    height: 100%;
+    width: 100%;
+}
+.centaur-cafe-phone #menu-phone .foto-off-phone{
+    height: 100%;
+    width: 100%;
+}
 .centaur-cafe #menu #foto-small:hover{
+    cursor: zoom-in;
+    border: 1px solid black;
+}
+.centaur-cafe-tablet #menu-tablet #foto-small-tablet:hover{
+    cursor: zoom-in;
+    border: 1px solid black;
+}
+.centaur-cafe-phone #menu-phone #foto-small-phone:hover{
     cursor: zoom-in;
     border: 1px solid black;
 }
