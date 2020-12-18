@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="stylesheet" href="style/navbar_style.css">
+    <link rel="stylesheet" href="style/navbar-style.css">
     <link rel="stylesheet" href="style/autocomplete.css">
     <link rel="stylesheet" href="style/reservation.css">
     <script src="js/materialize.js"></script>
@@ -19,45 +19,42 @@
 </head>
 <body>
   <header class="header">
-    <div class="navbar-fixed ">
+    <div class="navbar">
       <nav class="white" role="navigation">
-          <nav> 
             <div class="nav-wrapper orange darken-1">
               <a id="logo-container" href="index.html" class="brand-logo"><img src="img/Best-Logo.png" alt="" height="58px"></a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
                 <li><a class="waves-effect waves-light white-text icon-shopping"><i class="material-icons right">shopping_cart</i>Корзина</a></li>
               </ul>
-    
-    
+              
               <ul id="nav-mobile" class="side-nav orange">
-                <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
-                <hr color="white">
-                <li ><a class="waves-effect waves-light white  btn-large icon-shopping"><i class="material-icons right black-text">shopping_cart</i>Корзина</a></li>
-                <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
-               <div class="text-mobile">
-                <p class="center first">Щодня з 10:00 до 21:00</p>
-                <p class="center other">+38 (067) 63 71 444</p>
-                <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
-               </div>
-              </ul>
-              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>
+                  <li><a id="logo-container" href="index.html" class="center"><img src="img/Best-Logo.png" alt="" height="58px"></a></li>
+                  <hr color="white">
+                  <li ><a class="waves-effect waves-light white  btn-large icon-shopping"><i class="material-icons right black-text">shopping_cart</i>Корзина</a></li>
+                  <li ><a href="Reservation.html" class="waves-effect white black-text btn-large "><b>Зарезервувати</b></a></li>
+                 <div class="text-mobile">
+                  <p class="center first">Щодня з 10:00 до 21:00</p>
+                  <p class="center other">+38 (067) 63 71 444</p>
+                  <p class="center other">Пт - Нд - працюємо з 10:00 до 22:00</p>
+                 </div>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">dehaze</i></a>            
+              </div>
             </div>
-    
-    
-            </div>
+  
           </nav>
-      </nav>
+          
       </div>
   
   </header>
   
-      <div class="container">
+      <div class="container hide-on-med-and-down">
         <div class="card-panel">
             <div class="row">
               <div class="container">
-                <img class="col s6" src="img/res-1.jpg">  
-                <div class="col s6">
+                <img class="col s6 m6 l6" src="img/res-1.jpg">  
+                <div class="col s6 m6 l6">
                     <ul>
                         <li><h2 class="flow-text">Ресторан Centaur (Кентавр)</h2></li>
                         <li><blockquote><p class="flow-text">пл. Ринок, 34, Львів 79008 Україна</p>
@@ -160,6 +157,226 @@
             </div>
           </div>
           </div>
+
+        <div class="hide-on-small-only hide-on-large-only">
+            <div class="container">
+              <div class="card-panel">
+            <div class="row">
+                <img class="col s8 push-s2" src="img/res-1.jpg">  
+              </div> 
+              <div class="row">
+                <div class="col s8 push-s1">
+                    <ul>
+                        <li><h2 class="flow-text">Ресторан Centaur (Кентавр)</h2></li>
+                        <li><blockquote><p class="flow-text">пл. Ринок, 34, Львів 79008 Україна</p>
+                            <div class="row">
+                                <a href="https://www.tripadvisor.ru/Restaurant_Review-g295377-d2660092-Reviews-Cafe_Centaur-Lviv_Lviv_Oblast.html" target="_blank"><img src="img/tripadvisor.png" class="iconka"></a>
+                                <a href="https://www.google.com/maps/place/%D0%9A%D0%B5%D0%BD%D1%82%D0%B0%D0%B2%D1%80/@49.8423048,24.0307259,15z/data=!4m5!3m4!1s0x0:0x246a341b73f26773!8m2!3d49.8423048!4d24.0307259?hl=uk" target="_blank"><img src="img/google_icon.png" class="iconka"></a>
+                            </div>
+                        </blockquote></li>
+                    </ul>
+                  </div>
+                 </div>
+            <div class="centaur-cafe-tablet">
+              <div class="tab-mine-tablet">
+                <div class="center">
+                  <div class="container">
+                    <input class="reset-this" type="radio" name="tab-button" id="menu-button-tablet">
+                    <label class="reset-this button-position labels" for="menu-button-tablet">Меню</label>
+                    <input class="reset-this" type="radio" name="tab-button" id="opis-button-tablet" value="">
+                    <label class="reset-this button-position labels" for="opis-button-tablet">Опис</label>
+                    <input class="reset-this" type="radio" name="tab-button" id="reservation-button-tablet" value="">
+                    <label class="reset-this button-position labels" for="reservation-button-tablet">Резервація</label>
+
+                    <div id="opis-tablet">
+                      <div class="row">
+                        <img class="photo col s8 offset-s2" src="img/centaur-cafe.jpg">
+                      </div>
+                      <div class="row">
+                        <ul class="col s12 txt">
+                          <li>Кафе "Кентавр" розташований в самому серці Львова на площі Ринок. Тераса декорована зеленню і квітами, просторі зали, прикрашені раритетними меню, "барвиста затишна та смачна" пивниця, власний купаж кави, авторська львівсько-галицька кухня - відвідавши "Кентавр" одного разу, Ви запам'ятаєте його назавжди.
+                          </li>
+                          <li>
+                            В кафе три зали розраховані до 80 чоловік. 
+                            <br>
+                              На літній період - працює літня тераса до 40 осіб. 
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <div id="reservacia-tablet">
+                      <div class="row">     
+                        <div class="col s12">
+                          <div class="stats col s5">  
+                            <h5 class="txt">Зайнято 43/80</h5>
+                            <div class="stata">
+                              <div class="stat-shkala">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col s1"></div>
+                          <div class="col s6">
+                            <h4 class="txt">Здійсніть Резервацію</h4>   
+                            <b class="col s1">1.</b>
+                            <div class="col s11">
+                              <select class="browser-default">
+                                <option value="" disabled selected>Виберіть кількість осіб</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="10">Більше</option>
+                              </select>
+                            </div> 
+                            </div>
+                          </div>
+                      
+                      <div class="col s6 offset-s6">
+                        <b class="col s1">2.</b>
+                        <div class="input-field col s11">
+                          <form action="" method="GET">
+                            <input type="text" name="phone_number" placeholder="+380 XXX XXX XXX" class="validate col s10">
+                            <div class="col s1">
+                              <a href="#zatemnenie" class="btn-floating btn-small waves-effect waves-light green"><i class="material-icons">check</i></a>
+                            </div>
+                            </div>
+                          </div>
+                          </form>
+                          </div>
+                    </div>
+                    <div id="menu-tablet">
+                      <div class="row">
+                        <a href="#fotka-tablet"><img src="img/menu.jpg" id="foto-small-tablet" class="col s6 offset-s3"></a>
+                        <div id="fotka-tablet" onclick="document.location.href = '#'">
+                          <div>
+                            <img class="foto-tablet" id="sama-fotka-tablet" src="img/menu.jpg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>    
+                  </div>
+                  </div>
+                  </div>            
+              </div> 
+          </div>
+        </div>
+
+          <div class="hide-on-med-and-up">
+            <div class="container">
+              <div class="card-panel">
+                <div class="row">
+                    <img class="col s12" src="img/res-1.jpg">
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <ul>
+                          <li><h2 class="flow-text">Ресторан Centaur (Кентавр)</h2></li>
+                          <li><blockquote><p class="flow-text">пл. Ринок, 34, Львів 79008 Україна</p>
+                              <div class="row">
+                                  <a href="https://www.tripadvisor.ru/Restaurant_Review-g295377-d2660092-Reviews-Cafe_Centaur-Lviv_Lviv_Oblast.html" target="_blank"><img src="img/tripadvisor.png" class="iconka"></a>
+                                  <a href="https://www.google.com/maps/place/%D0%9A%D0%B5%D0%BD%D1%82%D0%B0%D0%B2%D1%80/@49.8423048,24.0307259,15z/data=!4m5!3m4!1s0x0:0x246a341b73f26773!8m2!3d49.8423048!4d24.0307259?hl=uk" target="_blank"><img src="img/google_icon.png" class="iconka"></a>
+                              </div>
+                          </blockquote></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="centaur-cafe-phone">
+                      <div class="tab-mine-phone">
+                        <div class="center">
+                            <input class="reset-this" type="radio" name="tab-button" id="menu-button-phone">
+                            <label class="reset-this button-position labels" for="menu-button-phone">Меню</label>
+                            <input class="reset-this" type="radio" name="tab-button" id="opis-button-phone" value="">
+                            <label class="reset-this button-position labels" for="opis-button-phone">Опис</label>
+                            <input class="reset-this" type="radio" name="tab-button" id="reservation-button-phone" value="">
+                            <label class="reset-this button-position labels" for="reservation-button-phone">Резервація</label>
+        
+                            <div id="opis-phone">
+                              <div class="row">
+                                <img class="photo col s12" src="img/centaur-cafe.jpg">
+                              </div>
+                              <div class="row">
+                                <ul class="col s12 txt">
+                                  <li>Кафе "Кентавр" розташований в самому серці Львова на площі Ринок. Тераса декорована зеленню і квітами, просторі зали, прикрашені раритетними меню, "барвиста затишна та смачна" пивниця, власний купаж кави, авторська львівсько-галицька кухня - відвідавши "Кентавр" одного разу, Ви запам'ятаєте його назавжди.
+                                  </li>
+                                  <li>
+                                    В кафе три зали розраховані до 80 чоловік. 
+                                    <br>
+                                      На літній період - працює літня тераса до 40 осіб. 
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            
+                            <div id="reservacia-phone">
+                              <div class="row">     
+                                <div class="col s12">
+                                  <div class="stats">  
+                                    <h5 class="txt">Зайнято 43/80</h5>
+                                    <div class="stata">
+                                      <div class="stat-shkala">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col s1"></div>
+                                  <div class="col s12">
+                                    <h4 class="txt">Здійсніть Резервацію</h4>   
+                                    <b class="col s1">1.</b>
+                                    <div class="col s11">
+                                      <select class="browser-default">
+                                        <option value="" disabled selected>Виберіть кількість осіб</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="10">Більше</option>
+                                      </select>
+                                    </div> 
+                                    </div>
+                                  </div>
+                                  
+                              <div class="row">
+                                <div class="col s12">
+                                  <b class="col s1">2.</b>
+                                  <div class="input-field col s11">
+                                    <form action="" method="GET">
+                                      <input type="text" name="phone_number" placeholder="+380 XXX XXX XXX" class="validate col s10">
+                                      <div class="col s1">
+                                        <a href="#zatemnenie" class="btn-floating btn-small waves-effect waves-light green"><i class="material-icons">check</i></a>
+                                      </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                    </div>     
+                            </div>
+
+                            <div id="menu-phone">
+                              <div class="row">
+                                <a href="#fotka-phone"><img src="img/menu.jpg" id="foto-small-phone" class="col s12"></a>
+                                <div id="fotka-phone" onclick="document.location.href = '#'">
+                                  <div>
+                                    <img class="foto-phone" id="sama-fotka-phone" src="img/menu.jpg">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>   
+                          </div>
+                          </div>
+                          </div>            
+                      </div> 
+                </div>
+            </div>
+          </div>
+
           <div id="zatemnenie">
             <div id="okno" class="animate__animated animate__fast animate__bounceInRight">
               <h3 class="center-align txt">
@@ -176,9 +393,11 @@
                 <div class="row">
                   <div class="col l3 s12">
                     <h5><b class="white-text ">НАШІ ДАННІ</b></h5>
+                    <ul>
                     <li><a class="black-text" >ГАРЯЧА ЛІНІЯ</a></li>
                     <li><a class="black-text">+380980887885</a></li>
                     <li><a class="black-text">+380666935686</a></li>
+                    </ul>
                   </div>
                   <div class="col l3 s12">
                     <h5><b class="white-text ">МИ В YouTube</b></h5>
@@ -201,7 +420,7 @@
                 Made by <a class="black-text " href="">HARIONS GROUP</a>
                 </div>
               </div>
-            </footer>
+            </footer>    
  <script src="js/wow.min.js"></script>
 <script>
     new WOW().init();
